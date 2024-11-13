@@ -72,6 +72,66 @@ input, select, textarea {
 	appearance: none;
 }
 
+/**/
+
+
+  
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  .team-member {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e026;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .team-member img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .member-info {
+    flex: 1;
+  }
+
+  .member-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .member-info p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9em;
+  }
+
+  .member-info .read-more {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+
+  /*********************************************************************/
+
 /* Page */
 
 	@-moz-keyframes load-spinner {
